@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style type="text/css">
+        *{
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .navdiv a{
+        position: relative;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    .navdiv a.active{
+        color: brown;
+        border-bottom: 3px solid brown;
+    }
+ 
+        li{
+            list-style: none; 
+            display: inline-block;
+        }
+        li a{
+            font-size: 18px; 
+            font-weight: 500; 
+            margin-right: 25px;
+            font-style: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #000000;
+        }
+        ul li a:hover{
+            border-bottom: 2px solid #000000
+        }
+        header {
+      padding: 20px;
+      text-align: right;
+      font-size: 35px;
+      color: black;
+      padding-top: 1.5cm;
+    }
+    .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            padding: 40px 0;
+            background-color: rgb(138, 73, 20);
+            
+        }
+        .footer p {
+            margin: 5px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-bottom: 0px;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+            text-align: center;
+        }
+    body {
+      background-image: url(picture/background\ 3.avif);
+    }
+    .container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .container2{
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .container3{
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 3cm;
+    }
+    .flip-card {
+  background-color: transparent;
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 2rem;
+}
+
+.flip-card-front {
+  background-color: rgb(138, 73, 20);
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  line-height: 2;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+  padding-bottom: 2cm;
+  padding-top: 2cm;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+  padding-top: 0.5cm;
+  padding-bottom: 1cm;
+  margin-bottom: 1.5cm;
+}
+h2{
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navdiv">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="achivement.html">Achievement</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>&#9752; My Evoluation of Education &#9752;</h1>
+
+<div class="container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>SPM</h2>
+        <img src="picture/SPM.jpg" alt="Avatar" style="width: 350px;height: 350px;">
+      </div>
+      <div class="flip-card-back">
+      <h3>2015 - 2019</h3> 
+      <p>School : SMK Seri Nilam,<br>Kuala Terengganu</p> 
+      <p>Major : Pure Science & Engineering<br>Drawing</p> 
+      <p>Result : 2A+, 2B+, 4C</p> 
+  </div>
+</div>
+</div>
+
+<div class="container2">
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+          <h2>STPM</h2>
+        <img src="picture/STPM 2.jpg" alt="Avatar" style="width:350px;height:350px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>2020 - 2022</h3> 
+        <p>School : SMK Sultan Ahmad,<br>Kuala Terengganu</p> 
+        <p>Major : Business Management</p> 
+        <p>Result : 3.00</p> 
+        <p>Muet : 3.5</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container3">
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+          <h2>DEGREE</h2>
+        <img src="picture/STPM.avif" alt="Avatar" style="width:350px;height:350px;">
+      </div>
+      <div class="flip-card-back">
+        <h3>2022 - ON GOING</h3> 
+        <p>University : UITM Puncak Perdana,<br>Shah Alam, Selangor</p>
+        <p>Faculty : Information Management</p> 
+        <p>Major : Bachelor of Information Science (Hons)<br>Record Management</p>  
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2024 Shafin Arina. All right reserved</p>
+  <p>
+      Email: <a href="mailto:shafinarina0510@gmail.com">shafinarina0510@gmail.com</a> |
+      Phone: <a href="tel:+60 16767428">+60 167676428</a> |
+  </p>
+</footer>
+
+</body>
+</html>
